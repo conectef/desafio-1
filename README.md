@@ -1,8 +1,19 @@
 # Desafio Automação API - DemoQA
 
-Este projeto realiza testes automatizados na API do [DemoQA](https://demoqa.com) utilizando **Supertest** e **Jest**, cobrindo o fluxo completo de criação de usuário, geração de token, autorização, listagem de livros, aluguel e validação de registros.
+Este projeto realiza testes automatizados na API do [DemoQA](https://demoqa.com) utilizando **Supertest** e **Jest**, cobrindo o fluxo completo de criação de usuário, geração de token, autorização, listagem de livros, aluguel e validação de registros. A documentação oficial da API pode ser consultada em [DemoQA Swagger](https://demoqa.com/swagger/).
 
 ---
+## 🔹 Estrutura do projeto
+
+project/
+├─ features/
+│  ├─ book.feature            # Api testada
+├─ .gitignore                 # Arquivos e pastas ignorados pelo Git
+├─ package.json               # Dependências do projeto
+├─ package-lock.json          # Controle de versões das dependências
+└─ README.md                  # Documentação do projeto
+
+
 
 ## 🔹 Funcionalidades Testadas
 
